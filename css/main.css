@@ -1,0 +1,305 @@
+* {
+    font-family: Roboto;
+}
+body {
+    position: relative;
+    background-color: #fff;
+    background-image: 
+        url('../assets/header_figures/line_3.svg'),
+        url('../assets/header_figures/line_1.svg'),
+        url('../assets/header_figures/line_1.svg'),
+        url('../assets/header_figures/line_1.svg'),
+        url('../assets/header_figures/ellipse_3.svg'),
+        url('../assets/header_figures/ellipse_2.svg'),
+        url('../assets/header_figures/ellipse_1.svg'),
+        url('../assets/header_figures/ellipse_4.svg'),
+        url('../assets/header_figures/polygon_1.svg'),
+        url('../assets/header_figures/polygon_2.svg'),
+        url('../assets/header_figures/polygon_3.svg');
+    background-position: 
+        right 16px top 17px,
+        left 197px top 95px,
+        left 42px top 33px,
+        right 166px top 113px,
+        right 183px top 39px,
+        left 111px top 114px,
+        left 118px top 48px,
+        right 46px top 109px,
+        right 80px top 42px,
+        left 14px top 98px,
+        left 215px top 14px;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 505px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 45px;
+}
+.person-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.person-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 11px;
+}
+.person-name {
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.person-field {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.contacts-text {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+.contacts-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.07);
+    margin: 0;
+    border: 0;
+}
+main {
+    margin: 30px 0 50px 0;
+}
+.details-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.details-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+.details-description {
+    flex-basis: 70%;
+}
+.profile-text {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.experience:last-child {
+    margin-bottom: 0;
+}
+.experience-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin-bottom: 3px;
+}
+.experience-field {
+    color: #000;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09px;
+    margin-bottom: 5px;
+}
+.experience-timerange {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09px;
+    margin-bottom: 8px;
+}
+ul {
+    padding-left: 15px;
+}
+li {
+    list-style-type: disc;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+.education-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+}
+.education-description {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09px;
+}
+.skill-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+.skill {
+    color: #000;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09px;
+    padding: 4px 8px;
+    border-radius: 15px;
+    background: #EEE;
+}
+hr.vertical {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+.language-level {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09px;
+}
+.link-text {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+.print-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media screen and (max-width: 550px) {
+    .container {
+        max-width: 350px;
+    }
+    .person-img {
+        width: 75px;
+        height: 75px;
+    }
+    .person-name {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .person-field {
+        font-size: 14px;
+    }
+    .contacts {
+        margin: 30px 0;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    .contacts-text {
+        font-size: 12px;
+    }
+    .details-wrapper {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .details-title, .details-description {
+        flex-basis: 100%;
+    }
+    .details-title {
+        font-size: 16px;
+    }
+    .profile-text, .education-title, .experience-field {
+        font-size: 12px;
+    }
+    .experience-title {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .experience-timerange, .education-description, li, .skill, .language-level, .link-text {
+        font-size: 10px;
+    }
+}
