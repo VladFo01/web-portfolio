@@ -302,4 +302,7 @@ hr.vertical {
     .experience-timerange, .education-description, li, .skill, .language-level, .link-text {
         font-size: 10px;
     }
+    .print-btn {
+        display: none;
+    }
 }
